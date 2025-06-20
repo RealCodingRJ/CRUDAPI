@@ -14,12 +14,4 @@ export const users = [
   },
 ];
 
-try {
-  GetData(users.toString());
-} catch (err) {
-  if (err instanceof Error) {
-    console.log(err.message);
-  }
-}
-
-export default router;
+export default { router };
