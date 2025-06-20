@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.1.0"
+  },
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
