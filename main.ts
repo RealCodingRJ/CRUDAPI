@@ -18,7 +18,9 @@ try {
 
 const data = GetData(users.toString());
 app.get("/", (req, res) => {
-  res.send(users);
+  users.map((e) => {
+    res.send(e);
+  });
 });
 
 app.listen(PORT, () => {
